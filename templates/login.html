@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 <title>Pick a username</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+		<link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css')}}">
+		<script src="{{ url_for('static', filename='login.js') }}"></script>
+	</head>
+	<body>
+		<div class="container">
+
+			<form id="username-form" class='form-inline mx-auto'>
+				<div class="form-group">
+					<label for="username" class='mb-2 mr-sm-2 mb-sm-0'>Username</label>
+					<input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="username"  placeholder="Enter username">
+				</div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+
+		</div>
+	</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome to Chat</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+		<link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css')}}">
+		<link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/loading.css')}}">
+		<script src="{{ url_for('static', filename='index.js') }}"></script>
+
+	</head>
+
+	<body>
+		<div class="container">
+
+
+			<!-- Credit to https://loading.io/css/ for the HTML and CSS for this loader -->
+			<div class="center-roller mx-auto">
+				<div class="lds-roller">
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+
+		</div>
+	</body>
+</html>
